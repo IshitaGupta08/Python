@@ -1,2 +1,2 @@
 from hello_chai import chai
-chai("Masala tea")
+chai("Masala tea123")
