@@ -1,0 +1,13 @@
+prefix=/Users/techteam64/Desktop/python/venv
+exec_prefix=/Users/techteam64/Desktop/python/venv
+libdir=/Users/techteam64/Desktop/python/venv/lib
+sharedlibdir=/Users/techteam64/Desktop/python/venv/lib
+includedir=/Users/techteam64/Desktop/python/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

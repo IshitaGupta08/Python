@@ -1,4 +1,4 @@
-#Can you change the value inside the listwhich is contain in set S?
+#Can you change the value inside the list which is contain in set S?
 # s = {8,7,12,"Ishita",[1,2]}
 
 
