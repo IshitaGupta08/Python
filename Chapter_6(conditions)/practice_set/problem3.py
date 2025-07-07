@@ -1,0 +1,13 @@
+# a spam comment is defined as a text containing following keywords:
+# "Make a lot of money", "Buy now", "subscribe this", "click this" write a program to detech these spams.
+
+p1 = "Make a lot of money"
+p2 = "Buy now"
+p3 = "subscribe this"
+p4 = "click this"
+
+message = input("Enter the comment: ")
+if((p1 in message) or (p2 in message) or (p3 in message) or (p4 in message)):
+    print("This is a spam comment")
+else:
+    print("This comment is not a spam")
